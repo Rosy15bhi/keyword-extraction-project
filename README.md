@@ -102,3 +102,9 @@ The program:
 
 Rosy Lazari
 Master’s Degree in Artificial Intelligence – IULM University
+## 📷 Example Output
+
+Below is an example of the program execution:
+
+![Output](screenshot.png)
+
