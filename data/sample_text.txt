@@ -1,5 +1,5 @@
-Artificial intelligence is rapidly transforming modern business environments. 
-Companies are increasingly using machine learning algorithms to analyze large amounts of data and support strategic decision making. 
-In marketing, data-driven approaches allow organizations to better understand customer behavior and personalize user experiences. 
-At the same time, automation technologies improve operational efficiency and reduce human error. 
-Keyword extraction techniques play an important role in identifying the most relevant concepts within large textual datasets, helping analysts to quickly gain insights and make informed decisions.
+Artificial intelligence is rapidly transforming modern business environments.
+Companies are increasingly using machine learning algorithms to analyze large amounts of data and support strategic decision making.
+In marketing, data-driven approaches allow organizations to better understand customer behavior and personalize user experiences.
+At the same time, automation technologies improve operational efficiency and reduce human error.
+Keyword extraction techniques play an important role in identifying the most relevant concepts within large textual datasets, helping analysts to quickly gain insights and make informed decisions. 
