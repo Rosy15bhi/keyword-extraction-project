@@ -38,24 +38,24 @@ The goal is to extract meaningful keywords from a document in order to:
 ## 📂 Project Structure
 
 The project is organized as follows:
+
+```text
 keyword_extraction_project/
 │
-├── data/ # Contains input text files
-│ └── sample_text.txt
+├── data/                     # Contains input text files
+│   └── sample_text.txt
 │
-├── outputs/ # Stores extracted keywords
-│ ├── keywords_output.txt
-│ └── keywords_tfidf_output.txt
+├── outputs/                  # Stores extracted keywords
+│   ├── keywords_output.txt
+│   └── keywords_tfidf_output.txt
 │
-├── src/ # Source code
-│ ├── keywords_rake.py # RAKE-based keyword extraction
-│ └── keywords_tfidf.py # TF-IDF-based keyword extraction
+├── src/                      # Source code
+│   ├── keywords_rake.py      # RAKE-based keyword extraction
+│   └── keywords_tfidf.py     # TF-IDF-based keyword extraction
 │
-├── README.md # Project documentation
-├── requirements.txt # Required Python libraries
-└── .gitignore # Files ignored by Git
-
-This structure separates data, code, and results, making the project easier to understand and maintain.
+├── README.md                 # Project documentation
+├── requirements.txt          # Required Python libraries
+└── .gitignore                # Files ignored by Git
 
 ## Requirements
 
