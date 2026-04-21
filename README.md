@@ -22,25 +22,27 @@ The goal is to extract meaningful keywords from a document in order to:
 
 ## ⚙️ Technologies Used
 
-* Python 3
-* `rake-nltk`
-* `nltk`
+- Python 3
+- `rake-nltk`
+- `nltk`
+- `scikit-learn`
 
 ---
 
-## 📂 Project Structure
-
-```
+## Project Structure
 keyword_extraction_project/
 │
-├── data/          # Input text files
-├── outputs/       # Extracted keywords
-├── src/           # Python source code
-│   └── keywords_rake.py
+├── data/                     # Input text files
+├── outputs/                  # Extracted keywords
+│   ├── keywords_output.txt
+│   └── keywords_tfidf_output.txt
+├── src/                      # Python source code
+│   ├── keywords_rake.py
+│   └── keywords_tfidf.py
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-```
+
 
 ## Requirements
 
@@ -54,6 +56,7 @@ The main dependencies include:
 - rake-nltk
 - regex
 - tqdm
+- scikit-learn
 
 To install all required libraries, run the following command in the terminal:
 
@@ -70,11 +73,11 @@ pip install -r requirements.txt
 source venv/bin/activate
 ```
 
-2. Run the script:
-
-```bash
+2. Run the RAKE version:
 python3 src/keywords_rake.py
-```
+
+3. Run the TF-IDF version:
+python3 src/keywords_tfidf.py
 
 ---
 
@@ -103,15 +106,16 @@ Below is an example of the program execution:
 
 ## 💡 How It Works
 
-The program:
+The project includes two keyword extraction approaches:
 
-1. Reads a text file from the `data` folder
-2. Applies the RAKE algorithm
-3. Extracts ranked keywords
-4. Saves the results in the `outputs` folder
+1. The first script reads a text file from the `data` folder
+2. It applies the RAKE algorithm and extracts ranked keyphrases
+3. The second script applies TF-IDF to identify statistically relevant terms
+4. Both methods save their results in the `outputs` folder
 
 ---
 ## Comparison Between RAKE and TF-IDF
+
 
 In this project, two different keyword extraction approaches were implemented and compared: RAKE (Rapid Automatic Keyword Extraction) and TF-IDF (Term Frequency-Inverse Document Frequency).
 
@@ -124,6 +128,8 @@ RAKE extracts multi-word keyphrases based on word co-occurrence and the structur
 The two methods were tested on the same input text.
 
 The results show a clear difference in the type and quality of the extracted keywords:
+
+This highlights how different extraction strategies capture different aspects of textual information.
 
 - **RAKE** produces longer and more descriptive keyphrases (e.g., "relevant concepts within large textual datasets")
 - **TF-IDF** produces mostly single words (e.g., "data", "algorithms", "analysis")
