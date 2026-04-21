@@ -42,7 +42,26 @@ keyword_extraction_project/
 └── .gitignore
 ```
 
----
+## Requirements
+
+This project uses the Python libraries listed in the `requirements.txt` file.
+
+The main dependencies include:
+
+- click
+- joblib
+- nltk
+- rake-nltk
+- regex
+- tqdm
+
+To install all required libraries, run the following command in the terminal:
+
+```bash
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
 
 ## ▶️ How to Run
 
@@ -55,7 +74,7 @@ source venv/bin/activate
 2. Run the script:
 
 ```bash
-python src/keywords_rake.py
+python3 src/keywords_rake.py
 ```
 
 ---
@@ -76,7 +95,11 @@ Companies use machine learning to analyze customer data.
 7.00 - marketing strategies
 6.20 - machine learning
 ```
+## 📷 Example Output
 
+Below is an example of the program execution:
+
+![Output](screenshot.png)
 ---
 
 ## 💡 How It Works
@@ -102,31 +125,7 @@ The program:
 
 Rosy Lazari
 Master’s Degree in Artificial Intelligence – IULM University
-## 📷 Example Output
 
-Below is an example of the program execution:
-
-![Output](screenshot.png)
-
-## Requirements
-
-This project uses the Python libraries listed in the `requirements.txt` file.
-
-The main dependencies include:
-
-- click
-- joblib
-- nltk
-- rake-nltk
-- regex
-- tqdm
-
-To install all required libraries, run the following command in the terminal:
-
-```bash
-source venv/bin/activate
-pip install -r requirements.txt
-```
 
 
 ## Acknowledgement
