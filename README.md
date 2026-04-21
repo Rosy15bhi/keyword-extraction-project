@@ -110,21 +110,56 @@ You can modify the input text in the `data/sample_text.txt` file to test the met
 
 ---
 
-## 🧪 Example
+## 🧪 Examples
 
-### Input text:
+### 📄 Example 1 – AI & Business Text
 
-```
+#### Input text:
+```text
 Artificial intelligence is transforming marketing strategies.
 Companies use machine learning to analyze customer data.
 ```
 
-### Output:
-
+#### RAKE Output:
+```text
+artificial intelligence
+marketing strategies
+machine learning
 ```
-8.50 - artificial intelligence
-7.00 - marketing strategies
-6.20 - machine learning
+
+#### TF-IDF Output:
+```text
+intelligence
+marketing
+machine
+data
+```
+
+---
+
+### 📄 Example 2 – Social Media Text
+
+#### Input text:
+```text
+Social media platforms influence how people communicate and share information online.
+Content creators play a key role in shaping digital trends.
+```
+
+#### RAKE Output:
+```text
+social media platforms
+share information online
+content creators
+digital trends
+```
+
+#### TF-IDF Output:
+```text
+social
+media
+content
+creators
+trends
 ```
 ## 📷 Example Outputs
 
