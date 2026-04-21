@@ -56,6 +56,8 @@ keyword_extraction_project/
 ├── README.md                 # Project documentation
 ├── requirements.txt          # Required Python libraries
 └── .gitignore                # Files ignored by Git
+```
+---
 
 ## Requirements
 
