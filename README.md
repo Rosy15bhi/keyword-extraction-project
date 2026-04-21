@@ -108,6 +108,26 @@ Below is an example of the program execution:
 
 ![Output](screenshot.png)
 
+## Requirements
+
+This project uses the Python libraries listed in the `requirements.txt` file.
+
+The main dependencies include:
+
+- click
+- joblib
+- nltk
+- rake-nltk
+- regex
+- tqdm
+
+To install all required libraries, run the following command in the terminal:
+
+```bash
+pip install -r requirements.txt
+source venv/bin/activate
+pip install -r requirements.txt
+
 ## Acknowledgement
 
 This project was developed individually by Rosalia Lazari for the Data Mining and Text Analytics exam.
