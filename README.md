@@ -55,12 +55,12 @@ The main dependencies include:
 - regex
 - tqdm
 
-To install all required libraries, run the following command in the terminal:
+It is recommended to create a virtual environment before installing the dependencies:
 
-```bash
+python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-```
+
 
 
 ## ▶️ How to Run
