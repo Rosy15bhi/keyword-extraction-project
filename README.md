@@ -108,3 +108,10 @@ Below is an example of the program execution:
 
 ![Output](screenshot.png)
 
+## Acknowledgement
+
+This project was developed individually by Rosalia Lazari for the Data Mining and Text Analytics exam.
+
+The implementation, testing, and documentation were carried out independently.
+Generative AI tools such as ChatGPT were used as support for debugging, clarification, and refinement of the project.
+
