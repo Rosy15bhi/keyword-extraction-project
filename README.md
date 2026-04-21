@@ -13,7 +13,7 @@ The project highlights the differences between a semantic approach (RAKE), which
 This comparison allows for a better understanding of how different techniques capture and represent relevant information from text.
 
 The system analyzes a text file, identifies the most relevant phrases, and assigns a score to each keyword.
-
+This project is designed not only as a coding implementation, but also as a conceptual comparison between different keyword extraction strategies.
 ---
 
 ## 🧠 Objective
@@ -131,6 +131,18 @@ Below is an example of the program execution:
 ![Output](screenshot.png)
 ---
 
+## 🧪 Experimental Setup
+
+The two methods were tested on the same input text contained in `data/sample_text.txt`.
+
+The objective of the experiment was to compare:
+
+- the type of extracted keywords
+- the interpretability of the results
+- the ability to capture semantic information
+
+Both algorithms were applied without modifying preprocessing settings, ensuring a fair and consistent comparison.
+
 ## 💡 How It Works
 
 The project includes two keyword extraction approaches:
@@ -170,15 +182,27 @@ This highlights how different extraction strategies capture different aspects of
 
 Additionally, the methods were tested on different types of texts (e.g., business/AI and social media content), showing that the extracted keywords vary depending on the domain.
 
+## ⚠️ Limitations
+
+This project has some limitations:
+
+- The analysis is based on a single input text
+- No quantitative evaluation metrics (e.g., precision or recall) are used
+- TF-IDF performance depends on the size and diversity of the corpus
+- RAKE results may vary depending on stopwords and text structure
+
+These limitations suggest that further evaluation on larger and more diverse datasets would be necessary for more robust conclusions.
 ---
 
-## Conclusion
+## 🎯 Conclusion
 
-The comparison shows that RAKE is more effective for extracting meaningful and interpretable keyphrases from short descriptive texts, as it captures contextual information.
+The comparison highlights that RAKE extracts more meaningful and interpretable multi-word keyphrases, as it captures contextual information within the text.
 
-TF-IDF, on the other hand, provides a more general statistical overview of term importance, but the results are less expressive.
+TF-IDF, on the other hand, provides a more general statistical overview of term importance, identifying relevant individual words based on frequency.
 
-For this reason, RAKE was considered the most suitable method for this project, while TF-IDF was used as a complementary approach for comparison.
+The results suggest that RAKE is particularly effective for short descriptive texts, while TF-IDF can be useful as a complementary method for identifying key terms.
+
+This demonstrates how different keyword extraction approaches can lead to different interpretations of the same text.
 
 ## 🚀 Possible Improvements
 
