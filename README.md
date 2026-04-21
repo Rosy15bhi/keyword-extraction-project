@@ -79,6 +79,27 @@ To install all required libraries, run the following command in the terminal:
 source venv/bin/activate
 pip install -r requirements.txt
 ```
+### 📦 Dependency Installation Process
+
+The `requirements.txt` file contains all the Python libraries needed to run this project.
+
+It allows anyone to easily recreate the same environment and install all dependencies with a single command.
+
+To set up the project:
+
+1. Activate the virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+2. Install all required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+This ensures that all dependencies are correctly installed and the project runs without compatibility issues.
 
 ## ▶️ How to Run
 
