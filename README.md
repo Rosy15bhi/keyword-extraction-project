@@ -124,9 +124,10 @@ The main dependencies include:
 To install all required libraries, run the following command in the terminal:
 
 ```bash
-pip install -r requirements.txt
 source venv/bin/activate
 pip install -r requirements.txt
+```
+
 
 ## Acknowledgement
 
