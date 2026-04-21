@@ -80,17 +80,31 @@ pip install -r requirements.txt
 
 ## ▶️ How to Run
 
-1. Activate the virtual environment:
+Follow these steps to run the project locally:
 
+### 1. Activate the virtual environment
 ```bash
 source venv/bin/activate
 ```
 
-2. Run the RAKE version:
-python3 src/keywords_rake.py
+### 2. Install the required dependencies
+```bash
+pip install -r requirements.txt
+```
 
-3. Run the TF-IDF version:
+### 3. Run the RAKE-based keyword extraction
+```bash
+python3 src/keywords_rake.py
+```
+
+### 4. Run the TF-IDF-based keyword extraction
+```bash
 python3 src/keywords_tfidf.py
+```
+
+The extracted keywords will be saved in the `outputs` folder.
+
+You can modify the input text in the `data/sample_text.txt` file to test the methods on different content.
 
 ---
 
