@@ -4,7 +4,13 @@ This project was developed as part of the *Data Mining and Text Analytics* cours
 
 ## 📌 Overview
 
-This project performs **automatic keyword extraction** from textual documents using Python and the RAKE (Rapid Automatic Keyword Extraction) algorithm.
+This project focuses on keyword extraction from textual data using two different approaches: RAKE (Rapid Automatic Keyword Extraction) and TF-IDF (Term Frequency-Inverse Document Frequency).
+
+The goal is not only to extract keywords, but also to compare the behavior and effectiveness of the two methods when applied to the same input text.
+
+The project highlights the differences between a semantic approach (RAKE), which produces multi-word keyphrases, and a statistical approach (TF-IDF), which identifies important individual terms based on frequency.
+
+This comparison allows for a better understanding of how different techniques capture and represent relevant information from text.
 
 The system analyzes a text file, identifies the most relevant phrases, and assigns a score to each keyword.
 
@@ -29,20 +35,27 @@ The goal is to extract meaningful keywords from a document in order to:
 
 ---
 
-## Project Structure
+## 📂 Project Structure
+
+The project is organized as follows:
 keyword_extraction_project/
 │
-├── data/                     # Input text files
-├── outputs/                  # Extracted keywords
-│   ├── keywords_output.txt
-│   └── keywords_tfidf_output.txt
-├── src/                      # Python source code
-│   ├── keywords_rake.py
-│   └── keywords_tfidf.py
-├── README.md
-├── requirements.txt
-└── .gitignore
+├── data/ # Contains input text files
+│ └── sample_text.txt
+│
+├── outputs/ # Stores extracted keywords
+│ ├── keywords_output.txt
+│ └── keywords_tfidf_output.txt
+│
+├── src/ # Source code
+│ ├── keywords_rake.py # RAKE-based keyword extraction
+│ └── keywords_tfidf.py # TF-IDF-based keyword extraction
+│
+├── README.md # Project documentation
+├── requirements.txt # Required Python libraries
+└── .gitignore # Files ignored by Git
 
+This structure separates data, code, and results, making the project easier to understand and maintain.
 
 ## Requirements
 
