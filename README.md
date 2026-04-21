@@ -124,11 +124,19 @@ Companies use machine learning to analyze customer data.
 7.00 - marketing strategies
 6.20 - machine learning
 ```
-## 📷 Example Output
+## 📷 Example Outputs
 
-Below is an example of the program execution:
+The following screenshots show the same input text processed using two different keyword extraction techniques, highlighting the differences in output structure and interpretability.
 
-![Output](screenshot.png)
+### 📄 Input Text
+![Input](text_input.png)
+
+### 🔑 RAKE Output
+![RAKE](rake_output.png)
+
+### 📊 TF-IDF Output
+![TF-IDF](tfidf_output.png)
+
 ---
 
 ## 🧪 Experimental Setup
