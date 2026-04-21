@@ -111,6 +111,41 @@ The program:
 4. Saves the results in the `outputs` folder
 
 ---
+## Comparison Between RAKE and TF-IDF
+
+In this project, two different keyword extraction approaches were implemented and compared: RAKE (Rapid Automatic Keyword Extraction) and TF-IDF (Term Frequency-Inverse Document Frequency).
+
+RAKE extracts multi-word keyphrases based on word co-occurrence and the structure of the text, while TF-IDF identifies statistically relevant individual terms based on their frequency and distribution.
+
+---
+
+## Performance Analysis
+
+The two methods were tested on the same input text.
+
+The results show a clear difference in the type and quality of the extracted keywords:
+
+- **RAKE** produces longer and more descriptive keyphrases (e.g., "relevant concepts within large textual datasets")
+- **TF-IDF** produces mostly single words (e.g., "data", "algorithms", "analysis")
+
+| Criterion | RAKE | TF-IDF |
+|----------|------|--------|
+| Output type | Multi-word phrases | Single words |
+| Interpretability | High | Medium |
+| Semantic richness | High | Lower |
+| Usefulness on tested text | More effective | More generic |
+
+Additionally, the methods were tested on different types of texts (e.g., business/AI and social media content), showing that the extracted keywords vary depending on the domain.
+
+---
+
+## Conclusion
+
+The comparison shows that RAKE is more effective for extracting meaningful and interpretable keyphrases from short descriptive texts, as it captures contextual information.
+
+TF-IDF, on the other hand, provides a more general statistical overview of term importance, but the results are less expressive.
+
+For this reason, RAKE was considered the most suitable method for this project, while TF-IDF was used as a complementary approach for comparison.
 
 ## 🚀 Possible Improvements
 
