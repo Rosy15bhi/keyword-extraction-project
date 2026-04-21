@@ -226,6 +226,7 @@ This highlights how different extraction strategies capture different aspects of
 | Usefulness on tested text | More effective | More generic |
 
 Additionally, the methods were tested on different types of texts (e.g., business/AI and social media content), showing that the extracted keywords vary depending on the domain.
+These results confirm that different keyword extraction methods capture different aspects of textual information, depending on whether the focus is semantic coherence or statistical relevance.
 
 ## ⚠️ Limitations
 
