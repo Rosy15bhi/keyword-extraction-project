@@ -130,6 +130,13 @@ The extracted keywords will be saved in the `outputs` folder.
 You can modify the input text in the `data/sample_text.txt` file to test the methods on different content.
 
 ---
+## 🌐 Web Interface
+A Streamlit-based web app is also available for interactive keyword extraction.
+To run it locally:
+
+streamlit run app.py
+
+The app allows you to type any text and instantly compare RAKE and TF-IDF results side by side.
 
 ## 🧪 Examples
 
