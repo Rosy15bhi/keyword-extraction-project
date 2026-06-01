@@ -26,6 +26,9 @@ with open("outputs/keywords_tfidf_output.txt", "w", encoding="utf-8") as output_
 # Print results in terminal
 print("Extracted TF-IDF keywords:\n")
 for word, score in keywords[:10]:
-    print(f"{score:.4f} - {word}")
+    print(f"{score:.4f} - {word}") 
+    print(f"\nTotal keywords extracted: {len(keywords)}")
+top_word, top_score = keywords[0] if keywords else ("N/A", 0)
+print(f"Highest score: {top_score:.4f} - '{top_word}'")
 
 print("\nResults saved in: outputs/keywords_tfidf_output.txt")
