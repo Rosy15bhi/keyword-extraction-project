@@ -37,6 +37,11 @@ def extract_keywords(input_file: Path, output_file: Path) -> None:
         output_lines.append(f"{score:.2f} - {phrase}")
 
     output_text = "\n".join(output_lines)
+    total = len(ranked_phrases)
+    top_score, top_phrase = ranked_phrases[0] if ranked_phrases else (0, "N/A")
+
+    print(f"\nTotal keyphrases extracted: {total}")
+    print(f"Highest score: {top_score:.2f} - '{top_phrase}'")
     output_file.write_text(output_text, encoding="utf-8")
 
     print("\nKeywords extracted successfully:\n")
