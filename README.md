@@ -246,6 +246,13 @@ This highlights how different extraction strategies capture different aspects of
 | Semantic richness | High | Lower |
 | Usefulness on tested text | More effective | More generic |
 
+**Quantitative Comparison**
+
+| | RAKE | TF-IDF |
+|---|---|---|
+| Keywords extracted (Example 1 – AI & Business) | 3 | 4 |
+| Keywords extracted (Example 2 – Social Media) | 4 | 5 |
+
 Additionally, the methods were tested on different types of texts (e.g., business/AI and social media content), showing that the extracted keywords vary depending on the domain.
 These results confirm that different keyword extraction methods capture different aspects of textual information, depending on whether the focus is semantic coherence or statistical relevance.
 
